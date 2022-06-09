@@ -1,0 +1,677 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "25ff88fa-7dfc-4d61-b29a-60332a42b584",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Raspy Religion",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "backpack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backpack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rect27436.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rect27436.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Pictures/cross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Pictures\\cross.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "session_token",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "player_id",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.98,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "leaderboardData",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "score",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "b238032b-f500-492c-8cd6-698fcf6d2c85",
+          "width": 284,
+          "x": 27,
+          "y": 481,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 77,
+          "layer": "",
+          "locked": false,
+          "name": "UploadScoreButton",
+          "persistentUuid": "af7bff1d-7809-4d2f-8c57-edf596e69861",
+          "width": 251,
+          "x": 41,
+          "y": 495,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "UploadScoreText",
+          "persistentUuid": "fc96abf4-e512-438b-8e7a-e88b30931ec0",
+          "width": 0,
+          "x": 82,
+          "y": 517,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LeaderboardData",
+          "persistentUuid": "df46f7bf-da70-4d2a-a8e0-b2c024e0fc94",
+          "width": 0,
+          "x": 52,
+          "y": 26,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "IncreaseScoreButton",
+          "persistentUuid": "3ce623bd-e7db-4195-b3f3-6b3a05a46445",
+          "width": 72,
+          "x": 408,
+          "y": 499,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 56,
+          "layer": "",
+          "locked": false,
+          "name": "IncreaseScoreText",
+          "persistentUuid": "f788da91-008c-4210-b0ae-373d02fb867f",
+          "width": 56,
+          "x": 418,
+          "y": 506,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "locked": false,
+          "name": "ScoreText",
+          "persistentUuid": "43b9e544-62ad-4261-a0b1-4afd81475859",
+          "width": 193,
+          "x": 409,
+          "y": 452,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "UploadScoreButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "rect27436.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IncreaseScoreButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "rect27436.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DecreaseScoreText",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "rect27436.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "UploadScoreText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Upload score",
+          "font": "",
+          "characterSize": 29,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "LeaderboardData",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Leaderboard data",
+          "font": "",
+          "characterSize": 29,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "IncreaseScoreText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+",
+          "font": "",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ScoreText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ScoreAmount",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Authentication, and then fetching of leaderboard",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "function Authentication() {\n    // Game API key\n    const gameAPIKey = 'your-game-API-key-here'\n\n    // Leaderboard key\n    const leaderboardKey = 'your-leaderboard-key-here'\n\n    // Development mode true/false\n    const developmentMode = 'true'\n\n    // Authentication request\n    const AuthHttp = new XMLHttpRequest()\n    const auth_url = 'https://api.lootlocker.io/game/v2/session/guest'\n    AuthHttp.open('POST', auth_url)\n    AuthHttp.setRequestHeader('Content-Type', 'application/json')\n\n    //This is used to ensure that a new player is not created if one already exists when starting a session\n    const playerIdentifier = localStorage.getItem('player_identifier')\n\n    if (playerIdentifier == null) {\n        // No player identifier was found, start new session\n        AuthHttp.send(\n            JSON.stringify({ game_key: gameAPIKey, game_version: '0.1.0.0', development_mode: developmentMode })\n        )\n    } else {\n        // Player identifier was found, continue with this player\n        AuthHttp.send(\n            JSON.stringify({\n                game_key: gameAPIKey,\n                player_identifier: playerIdentifier,\n                game_version: '0.1.0.0',\n                development_mode: developmentMode,\n            })\n        )\n    }\n\n    AuthHttp.onreadystatechange = e => {\n        // Log server response\n        console.log(AuthHttp.responseText)\n\n        // Parse json\n        const text = JSON.parse(AuthHttp.responseText)\n\n        // Save player identifier to storage\n        localStorage.setItem('player_identifier', text.player_identifier)\n\n        // Save session_token to a global variable\n        runtimeScene.getGame().getVariables().get('session_token').setString(text.session_token)\n        // Save player ID\n        runtimeScene.getGame().getVariables().get('player_id').setString(text.player_id)\n\n        // Get leaderboard data\n        const leaderboardHTTP = new XMLHttpRequest()\n        const amountOfEntries = 10\n        const leaderboardUrl =\n            'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/list?count=' + amountOfEntries\n        leaderboardHTTP.open('GET', leaderboardUrl)\n        leaderboardHTTP.setRequestHeader('Content-Type', 'application/json')\n\n        // Add session token\n        leaderboardHTTP.setRequestHeader(\n            'x-session-token',\n            runtimeScene.getGame().getVariables().get('session_token').getValue()\n        )\n        // Send leaderboard request\n        leaderboardHTTP.send('')\n        leaderboardHTTP.onreadystatechange = e => {\n            let leaderboardData = ''\n            const leaderboardResponseText = JSON.parse(leaderboardHTTP.responseText)\n            for (let i = 0; i < leaderboardResponseText.items.length; i++) {\n                leaderboardData += leaderboardResponseText.items[i].rank + '. '\n                leaderboardData += leaderboardResponseText.items[i].player.id\n                leaderboardData += '        '\n                leaderboardData += leaderboardResponseText.items[i].score\n                leaderboardData += '\\n'\n            }\n            // Save leaderboard data to sceneVariable\n            runtimeScene.getVariables().get('leaderboardData').setValue(leaderboardData)\n        }\n    }\n}",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "UploadScoreButton",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "NewSprite",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Upload score from scene-variable and then update the leaderboardData variable",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "function UploadScore() {\n    // Leaderboard-key\n    const leaderboardKey = 'your-leaderboard-key'\n\n    // Score from scene-variable\n    const score = runtimeScene.getVariables().get('score').getValue()\n\n    // Upload score\n    const Http = new XMLHttpRequest()\n    const url = 'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/submit'\n    Http.open('POST', url)\n    Http.setRequestHeader('Content-Type', 'application/json')\n    // Add session token\n    Http.setRequestHeader('x-session-token', runtimeScene.getGame().getVariables().get('session_token').getValue())\n\n    // Send score and player identifier\n    Http.send(\n        JSON.stringify({ score: score, member_id: runtimeScene.getGame().getVariables().get('player_id').getValue() })\n    )\n    Http.onreadystatechange = e => {\n        // Log server response\n        console.log(Http.responseText)\n\n        // Get the leaderboard after the new score was added to keep it fresh\n        // Get leaderboard data\n        const leaderboardHTTP = new XMLHttpRequest()\n        const amountOfEntries = 10\n        const leaderboardUrl =\n            'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/list?count=' + amountOfEntries\n        leaderboardHTTP.open('GET', leaderboardUrl)\n        leaderboardHTTP.setRequestHeader('Content-Type', 'application/json')\n\n        // Add session token\n        leaderboardHTTP.setRequestHeader(\n            'x-session-token',\n            runtimeScene.getGame().getVariables().get('session_token').getValue()\n        )\n        leaderboardHTTP.send('')\n\n        leaderboardHTTP.onreadystatechange = e => {\n            const leaderboardData = ''\n            const leaderboardResponseText = JSON.parse(leaderboardHTTP.responseText)\n            for (let i = 0; i < leaderboardResponseText.items.length; i++) {\n                leaderboardData += leaderboardResponseText.items[i].rank + '. '\n                leaderboardData += leaderboardResponseText.items[i].player.id\n                leaderboardData += '        '\n                leaderboardData += leaderboardResponseText.items[i].score\n                leaderboardData += '\\n'\n            }\n            runtimeScene.getVariables().get('leaderboardData').setValue(leaderboardData)\n        }\n    }\n}",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Always"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "LeaderboardData",
+                "=",
+                "VariableString(leaderboardData)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ScoreText",
+                "=",
+                "VariableString(score)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "IncreaseScoreButton",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "100"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
